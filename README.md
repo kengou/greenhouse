@@ -1,6 +1,7 @@
 Greenhouse
 ==========
 [![REUSE status](https://api.reuse.software/badge/github.com/cloudoperators/greenhouse)](https://api.reuse.software/info/github.com/cloudoperators/greenhouse)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/kengou/greenhouse/badge)](https://scorecard.dev/viewer/?uri=github.com/kengou/greenhouse)
 <a href="https://github.com/cloudoperators/greenhouse"><img align="left" width="150" height="170" src="./docs/assets/greenhouse.svg"></a>
 
 Greenhouse is a cloud operations platform designed to streamline and simplify the management of a large-scale, distributed infrastructure.
