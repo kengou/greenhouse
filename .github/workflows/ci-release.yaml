@@ -39,7 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build Changelog
-        uses: mikepenz/release-changelog-builder-action@9a903f73f4cccdc8241077da63578b3faba06403 # v5
+        uses: mikepenz/release-changelog-builder-action@bcae7115752d4ed746ff92feb666574428a79415 # v5
         with:
           configuration: .github/changelog-config.json
           outputFile: CHANGELOG.md
