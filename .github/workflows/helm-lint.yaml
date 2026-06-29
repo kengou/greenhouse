@@ -59,7 +59,7 @@ jobs:
             fi
           done
       
-      - uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v7
         if: steps.check-bump.outputs.needsbump == 'true'
         with:
           script: |
