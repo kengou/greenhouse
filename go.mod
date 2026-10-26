@@ -1,6 +1,6 @@
 module github.com/cloudoperators/greenhouse
 
-go 1.23.0
+go 1.26.0
 
 replace (
 	// DEX import matches version v2.41.1.
@@ -205,7 +205,7 @@ require (
 	golang.org/x/sync v0.12.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/term v0.30.0 // indirect
-	golang.org/x/time v0.11.0
+	golang.org/x/time v0.16.0
 	golang.org/x/tools v0.31.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
 	google.golang.org/api v0.195.0 // indirect
