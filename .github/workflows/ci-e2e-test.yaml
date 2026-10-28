@@ -82,7 +82,7 @@ jobs:
 
       - name: "Merge Uploads"
         continue-on-error: true # If there are no artifacts available, the merge step will fail so we need to continue on error
-        uses: actions/upload-artifact/merge@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4
+        uses: actions/upload-artifact/merge@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v4
         with:
           name: e2e-logs
           pattern: e2e-logs-*
